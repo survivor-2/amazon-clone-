@@ -1,0 +1,32 @@
+CART.CSS
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cart-container {
+    width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.empty-cart {
+    text-align: center;
+    padding: 50px;
+}
+
+.empty-cart img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#continue-shopping-btn {
+    background-color: #f0c14b;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
